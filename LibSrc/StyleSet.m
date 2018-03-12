@@ -188,9 +188,9 @@
 	}
 	
 	CGSize size;
-	size = [@"W" sizeWithFont:fonts[style_Normal]];
+	size = [@"W" sizeWithAttributes:[NSDictionary dictionaryWithObjectsAndKeys:fonts[style_Normal], NSFontAttributeName, nil]];
 	charbox = size;
-	size = [@"qld" sizeWithFont:fonts[style_Normal]];
+	size = [@"qld" sizeWithAttributes:[NSDictionary dictionaryWithObjectsAndKeys:fonts[style_Normal], NSFontAttributeName, nil]];
 	if (charbox.height < size.height)
 		charbox.height = size.height;
 	

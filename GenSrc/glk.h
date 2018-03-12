@@ -107,7 +107,7 @@ typedef struct glk_schannel_struct *schanid_t;
 
 typedef struct event_struct {
     glui32 type;
-    winid_t win;
+    __unsafe_unretained winid_t win;
     glui32 val1, val2;
 } event_t;
 

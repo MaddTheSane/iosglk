@@ -278,7 +278,7 @@
 		CGFloat ptx = xstart;
 		for (GlkVisualString *vwd in arr) {
 			UIFont *font = fonts[vwd.style];
-			CGSize wordsize = [vwd.str sizeWithFont:font];
+			CGSize wordsize = [vwd.str sizeWithAttributes:[NSDictionary dictionaryWithObjectsAndKeys:font, NSFontAttributeName, nil]];
 			ptx += wordsize.width;
 		}
 		right = ptx;
@@ -324,7 +324,7 @@
 			for (int ix=1; ix<=strlen; ix++) {
 				range.length = ix;
 				NSString *wdtext = [substr substringWithRange:range];
-				CGSize wordsize = [wdtext sizeWithFont:sfont];
+				CGSize wordsize = [wdtext sizeWithAttributes:[NSDictionary dictionaryWithObjectsAndKeys:sfont, NSFontAttributeName, nil]];
 				wdxpos = wdxstart+wordsize.width;
 				if (pos+ix <= concatlen) {
 					DEBUG_PARANOID_ASSERT((pos+ix <= concatlen), @"GlkVisualLine: letterpos overflow");

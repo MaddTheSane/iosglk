@@ -783,7 +783,7 @@
 					range.location = wdpos;
 					range.length = wdend - wdpos;
 					NSString *wdtext = [str substringWithRange:range];
-					CGSize wordsize = [wdtext sizeWithFont:sfont];
+					CGSize wordsize = [wdtext sizeWithAttributes:[NSDictionary dictionaryWithObjectsAndKeys:sfont, NSFontAttributeName, nil]];
 					
 					/* We want to wrap if this word will overflow the line. But if this is the first word on the line (which must be a very long word), we don't wrap here -- that would cause an infinite loop. */
 					if (tmparr.count > 0 && hpos+wordsize.width > wrapwidth) {
@@ -802,7 +802,7 @@
 						while (range.length > 1) {
 							range.length--;
 							wdtext = [str substringWithRange:range];
-							wordsize = [wdtext sizeWithFont:sfont];
+							wordsize = [wdtext sizeWithAttributes:[NSDictionary dictionaryWithObjectsAndKeys:sfont, NSFontAttributeName, nil]];
 							if (hpos+wordsize.width <= wrapwidth)
 								break;
 						}
@@ -1283,7 +1283,7 @@
 				label.opaque = NO;
 				[self addSubview:label];
 				CGPoint newpt = RectCenter(winv.inputholder.frame);
-				CGSize curinputsize = [winv.inputfield.text sizeWithFont:winv.inputfield.font];
+				CGSize curinputsize = [winv.inputfield.text sizeWithAttributes:[NSDictionary dictionaryWithObjectsAndKeys:winv.inputfield.font, NSFontAttributeName, nil]];
 				newpt.x = winv.inputholder.frame.origin.x + curinputsize.width + 0.5*rect.size.width;
 				[UIView beginAnimations:@"labelFling" context:label];
 				[UIView setAnimationDelegate:self];

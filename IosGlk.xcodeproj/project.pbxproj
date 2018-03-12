@@ -13,32 +13,17 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		2899E5220DE3E06400AC0155 /* IosGlkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* IosGlkViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		DF188B67154711AF00CC6929 /* button-input-menu-sel.png in Resources */ = {isa = PBXBuildFile; fileRef = DF188B65154711AF00CC6929 /* button-input-menu-sel.png */; };
-		DF188B68154711AF00CC6929 /* button-input-menu-sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF188B66154711AF00CC6929 /* button-input-menu-sel@2x.png */; };
+		55BC63462055E908001F8CFB /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BC63452055E908001F8CFB /* Media.xcassets */; };
 		DF188B6B154711C200CC6929 /* HistoryMenuView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF188B69154711C200CC6929 /* HistoryMenuView~ipad.xib */; };
 		DF188B6C154711C200CC6929 /* PaletteMenuView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF188B6A154711C200CC6929 /* PaletteMenuView~ipad.xib */; };
 		DF188B6F154711CE00CC6929 /* InputMenuDecor~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF188B6D154711CE00CC6929 /* InputMenuDecor~ipad.xib */; };
 		DF188B79154753F300CC6929 /* GameOverView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF188B78154753F300CC6929 /* GameOverView.m */; };
 		DF188B7C154757AB00CC6929 /* GameOverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF188B7E154757AB00CC6929 /* GameOverView.xib */; };
 		DF188B8115478DE300CC6929 /* MButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DF188B8015478DE300CC6929 /* MButton.m */; };
-		DF188B8615478EA000CC6929 /* button-pref-base.png in Resources */ = {isa = PBXBuildFile; fileRef = DF188B8215478EA000CC6929 /* button-pref-base.png */; };
-		DF188B8715478EA000CC6929 /* button-pref-base@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF188B8315478EA000CC6929 /* button-pref-base@2x.png */; };
-		DF188B8815478EA000CC6929 /* button-pref-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = DF188B8415478EA000CC6929 /* button-pref-hi.png */; };
-		DF188B8915478EA000CC6929 /* button-pref-hi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF188B8515478EA000CC6929 /* button-pref-hi@2x.png */; };
 		DF19DDC914E87CC4007DCB29 /* IosGlkLibDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF19DDC814E87CC4007DCB29 /* IosGlkLibDelegate.m */; };
 		DF29B80C1559EA22009DA4BE /* MoreBoxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF29B80D1559EA22009DA4BE /* MoreBoxView.xib */; };
-		DF29B8101559EA34009DA4BE /* more-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29B80E1559EA34009DA4BE /* more-arrow.png */; };
-		DF29B8111559EA34009DA4BE /* more-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29B80F1559EA34009DA4BE /* more-arrow@2x.png */; };
 		DF34BE041A424EFD008D18B6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF34BE031A424EFD008D18B6 /* MobileCoreServices.framework */; };
-		DF41DA6F152E09F4000B5D00 /* button-tab-sel.png in Resources */ = {isa = PBXBuildFile; fileRef = DF41DA6D152E09F4000B5D00 /* button-tab-sel.png */; };
-		DF41DA70152E09F4000B5D00 /* button-tab-sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF41DA6E152E09F4000B5D00 /* button-tab-sel@2x.png */; };
-		DF564963158988F4002A52E2 /* button-done-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = DF56495F158988F4002A52E2 /* button-done-hi.png */; };
-		DF564964158988F4002A52E2 /* button-done-hi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF564960158988F4002A52E2 /* button-done-hi@2x.png */; };
-		DF564965158988F4002A52E2 /* button-done.png in Resources */ = {isa = PBXBuildFile; fileRef = DF564961158988F4002A52E2 /* button-done.png */; };
-		DF564966158988F4002A52E2 /* button-done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF564962158988F4002A52E2 /* button-done@2x.png */; };
-		DF5A890C136E7995009C6DBC /* GlkDateTimeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5A890B136E7995009C6DBC /* GlkDateTimeLayer.m */; };
-		DF70A15B1513EDA600B109A2 /* selecthandle.png in Resources */ = {isa = PBXBuildFile; fileRef = DF70A1591513EDA600B109A2 /* selecthandle.png */; };
-		DF70A15C1513EDA600B109A2 /* selecthandle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF70A15A1513EDA600B109A2 /* selecthandle@2x.png */; };
+		DF5A890C136E7995009C6DBC /* GlkDateTimeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5A890B136E7995009C6DBC /* GlkDateTimeLayer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		DF70A15F1513F4F800B109A2 /* TextSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF70A15E1513F4F800B109A2 /* TextSelectView.m */; };
 		DF79782412F3ACFC00E8F5FF /* glkmain.c in Sources */ = {isa = PBXBuildFile; fileRef = DF79782312F3ACFC00E8F5FF /* glkmain.c */; };
 		DF98665D14FEE6100057E1E2 /* GlkLibraryState.m in Sources */ = {isa = PBXBuildFile; fileRef = DF98665A14FEE6100057E1E2 /* GlkLibraryState.m */; };
@@ -53,16 +38,7 @@
 		DFBB4DF214F5E1210041016A /* PopBoxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFBB4DF114F5E1210041016A /* PopBoxView.xib */; };
 		DFC0AF581355552000CD1F5D /* GlkFileSelectLoad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFC0AF561355552000CD1F5D /* GlkFileSelectLoad.xib */; };
 		DFC755E415295333009F4137 /* GlkAccessTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC755E315295333009F4137 /* GlkAccessTypes.m */; };
-		DFC755E8152953A1009F4137 /* background-popbox.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC755E5152953A1009F4137 /* background-popbox.png */; };
-		DFC755E9152953A1009F4137 /* background-popbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC755E6152953A1009F4137 /* background-popbox@2x.png */; };
-		DFC755EA152953A1009F4137 /* fader-popbox.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC755E7152953A1009F4137 /* fader-popbox.png */; };
 		DFCB15E1153E21E600936D28 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFCB15DF153E21E600936D28 /* Localizable.strings */; };
-		DFCB160B153FAD5E00936D28 /* button-input-back.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCB1605153FAD5E00936D28 /* button-input-back.png */; };
-		DFCB160C153FAD5E00936D28 /* button-input-back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCB1606153FAD5E00936D28 /* button-input-back@2x.png */; };
-		DFCB160D153FAD5E00936D28 /* button-input-clear.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCB1607153FAD5E00936D28 /* button-input-clear.png */; };
-		DFCB160E153FAD5E00936D28 /* button-input-clear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCB1608153FAD5E00936D28 /* button-input-clear@2x.png */; };
-		DFCB160F153FAD5E00936D28 /* button-input-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCB1609153FAD5E00936D28 /* button-input-menu.png */; };
-		DFCB1610153FAD5E00936D28 /* button-input-menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCB160A153FAD5E00936D28 /* button-input-menu@2x.png */; };
 		DFCB1614153FAD9400936D28 /* TextFieldRightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCB1613153FAD9400936D28 /* TextFieldRightView.xib */; };
 		DFCB1618153FAE2900936D28 /* InputMenuDecor.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCB161A153FAE2900936D28 /* InputMenuDecor.xib */; };
 		DFCE593D13690D0100EACA86 /* GlkBlorbLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE593B13690D0100EACA86 /* GlkBlorbLayer.m */; };
@@ -90,7 +66,7 @@
 		DFED7AD11365F1F200FBAFFB /* GlkFileRefLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DFED7AC91365F1F200FBAFFB /* GlkFileRefLayer.m */; };
 		DFED7AD21365F1F200FBAFFB /* GlkMiscLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DFED7ACA1365F1F200FBAFFB /* GlkMiscLayer.m */; };
 		DFED7AD31365F1F200FBAFFB /* GlkStreamLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DFED7ACB1365F1F200FBAFFB /* GlkStreamLayer.m */; };
-		DFED7AD41365F1F200FBAFFB /* GlkUnicodeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DFED7ACC1365F1F200FBAFFB /* GlkUnicodeLayer.m */; };
+		DFED7AD41365F1F200FBAFFB /* GlkUnicodeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DFED7ACC1365F1F200FBAFFB /* GlkUnicodeLayer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		DFED7AD51365F1F200FBAFFB /* GlkUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DFED7ACE1365F1F200FBAFFB /* GlkUtilities.m */; };
 		DFED7AD61365F1F200FBAFFB /* GlkWindowLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DFED7ACF1365F1F200FBAFFB /* GlkWindowLayer.m */; };
 		DFF26A84135BCBAC00F2FBFD /* GlkFileSelectStore.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF26A83135BCBAC00F2FBFD /* GlkFileSelectStore.xib */; };
@@ -105,9 +81,8 @@
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* IosGlk_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IosGlk_Prefix.pch; sourceTree = "<group>"; };
+		55BC63452055E908001F8CFB /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* IosGlk-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IosGlk-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		DF188B65154711AF00CC6929 /* button-input-menu-sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-input-menu-sel.png"; sourceTree = "<group>"; };
-		DF188B66154711AF00CC6929 /* button-input-menu-sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-input-menu-sel@2x.png"; sourceTree = "<group>"; };
 		DF188B69154711C200CC6929 /* HistoryMenuView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HistoryMenuView~ipad.xib"; sourceTree = "<group>"; };
 		DF188B6A154711C200CC6929 /* PaletteMenuView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PaletteMenuView~ipad.xib"; sourceTree = "<group>"; };
 		DF188B6E154711CE00CC6929 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/InputMenuDecor~ipad.xib"; sourceTree = "<group>"; };
@@ -116,25 +91,11 @@
 		DF188B7D154757AB00CC6929 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GameOverView.xib; sourceTree = "<group>"; };
 		DF188B7F15478DE200CC6929 /* MButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MButton.h; sourceTree = "<group>"; };
 		DF188B8015478DE300CC6929 /* MButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MButton.m; sourceTree = "<group>"; };
-		DF188B8215478EA000CC6929 /* button-pref-base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pref-base.png"; sourceTree = "<group>"; };
-		DF188B8315478EA000CC6929 /* button-pref-base@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pref-base@2x.png"; sourceTree = "<group>"; };
-		DF188B8415478EA000CC6929 /* button-pref-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pref-hi.png"; sourceTree = "<group>"; };
-		DF188B8515478EA000CC6929 /* button-pref-hi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pref-hi@2x.png"; sourceTree = "<group>"; };
 		DF19DDC814E87CC4007DCB29 /* IosGlkLibDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IosGlkLibDelegate.m; sourceTree = "<group>"; };
 		DF2280A413692516000AF225 /* iosglk_startup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iosglk_startup.h; sourceTree = "<group>"; };
 		DF29B80D1559EA22009DA4BE /* MoreBoxView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreBoxView.xib; sourceTree = "<group>"; };
-		DF29B80E1559EA34009DA4BE /* more-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more-arrow.png"; sourceTree = "<group>"; };
-		DF29B80F1559EA34009DA4BE /* more-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more-arrow@2x.png"; sourceTree = "<group>"; };
 		DF34BE031A424EFD008D18B6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		DF41DA6D152E09F4000B5D00 /* button-tab-sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-tab-sel.png"; sourceTree = "<group>"; };
-		DF41DA6E152E09F4000B5D00 /* button-tab-sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-tab-sel@2x.png"; sourceTree = "<group>"; };
-		DF56495F158988F4002A52E2 /* button-done-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-done-hi.png"; sourceTree = "<group>"; };
-		DF564960158988F4002A52E2 /* button-done-hi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-done-hi@2x.png"; sourceTree = "<group>"; };
-		DF564961158988F4002A52E2 /* button-done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-done.png"; sourceTree = "<group>"; };
-		DF564962158988F4002A52E2 /* button-done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-done@2x.png"; sourceTree = "<group>"; };
 		DF5A890B136E7995009C6DBC /* GlkDateTimeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlkDateTimeLayer.m; sourceTree = "<group>"; };
-		DF70A1591513EDA600B109A2 /* selecthandle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selecthandle.png; sourceTree = "<group>"; };
-		DF70A15A1513EDA600B109A2 /* selecthandle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selecthandle@2x.png"; sourceTree = "<group>"; };
 		DF70A15D1513F4F800B109A2 /* TextSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextSelectView.h; sourceTree = "<group>"; };
 		DF70A15E1513F4F800B109A2 /* TextSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextSelectView.m; sourceTree = "<group>"; };
 		DF79782312F3ACFC00E8F5FF /* glkmain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glkmain.c; sourceTree = "<group>"; };
@@ -160,16 +121,7 @@
 		DFC0AF561355552000CD1F5D /* GlkFileSelectLoad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GlkFileSelectLoad.xib; sourceTree = "<group>"; };
 		DFC755E215295333009F4137 /* GlkAccessTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlkAccessTypes.h; sourceTree = "<group>"; };
 		DFC755E315295333009F4137 /* GlkAccessTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlkAccessTypes.m; sourceTree = "<group>"; };
-		DFC755E5152953A1009F4137 /* background-popbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-popbox.png"; sourceTree = "<group>"; };
-		DFC755E6152953A1009F4137 /* background-popbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-popbox@2x.png"; sourceTree = "<group>"; };
-		DFC755E7152953A1009F4137 /* fader-popbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fader-popbox.png"; sourceTree = "<group>"; };
 		DFCB15E0153E21E600936D28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		DFCB1605153FAD5E00936D28 /* button-input-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-input-back.png"; sourceTree = "<group>"; };
-		DFCB1606153FAD5E00936D28 /* button-input-back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-input-back@2x.png"; sourceTree = "<group>"; };
-		DFCB1607153FAD5E00936D28 /* button-input-clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-input-clear.png"; sourceTree = "<group>"; };
-		DFCB1608153FAD5E00936D28 /* button-input-clear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-input-clear@2x.png"; sourceTree = "<group>"; };
-		DFCB1609153FAD5E00936D28 /* button-input-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-input-menu.png"; sourceTree = "<group>"; };
-		DFCB160A153FAD5E00936D28 /* button-input-menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-input-menu@2x.png"; sourceTree = "<group>"; };
 		DFCB1613153FAD9400936D28 /* TextFieldRightView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldRightView.xib; sourceTree = "<group>"; };
 		DFCB1619153FAE2900936D28 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/InputMenuDecor.xib; sourceTree = "<group>"; };
 		DFCE593B13690D0100EACA86 /* GlkBlorbLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlkBlorbLayer.m; sourceTree = "<group>"; };
@@ -309,31 +261,7 @@
 		DF70A1581513ED8F00B109A2 /* Media */ = {
 			isa = PBXGroup;
 			children = (
-				DF41DA6D152E09F4000B5D00 /* button-tab-sel.png */,
-				DF41DA6E152E09F4000B5D00 /* button-tab-sel@2x.png */,
-				DFCB1605153FAD5E00936D28 /* button-input-back.png */,
-				DFCB1606153FAD5E00936D28 /* button-input-back@2x.png */,
-				DFCB1607153FAD5E00936D28 /* button-input-clear.png */,
-				DFCB1608153FAD5E00936D28 /* button-input-clear@2x.png */,
-				DFCB1609153FAD5E00936D28 /* button-input-menu.png */,
-				DFCB160A153FAD5E00936D28 /* button-input-menu@2x.png */,
-				DF188B65154711AF00CC6929 /* button-input-menu-sel.png */,
-				DF188B66154711AF00CC6929 /* button-input-menu-sel@2x.png */,
-				DF188B8215478EA000CC6929 /* button-pref-base.png */,
-				DF188B8315478EA000CC6929 /* button-pref-base@2x.png */,
-				DF188B8415478EA000CC6929 /* button-pref-hi.png */,
-				DF188B8515478EA000CC6929 /* button-pref-hi@2x.png */,
-				DF564961158988F4002A52E2 /* button-done.png */,
-				DF564962158988F4002A52E2 /* button-done@2x.png */,
-				DF56495F158988F4002A52E2 /* button-done-hi.png */,
-				DF564960158988F4002A52E2 /* button-done-hi@2x.png */,
-				DFC755E5152953A1009F4137 /* background-popbox.png */,
-				DFC755E6152953A1009F4137 /* background-popbox@2x.png */,
-				DFC755E7152953A1009F4137 /* fader-popbox.png */,
-				DF70A1591513EDA600B109A2 /* selecthandle.png */,
-				DF70A15A1513EDA600B109A2 /* selecthandle@2x.png */,
-				DF29B80E1559EA34009DA4BE /* more-arrow.png */,
-				DF29B80F1559EA34009DA4BE /* more-arrow@2x.png */,
+				55BC63452055E908001F8CFB /* Media.xcassets */,
 			);
 			path = Media;
 			sourceTree = "<group>";
@@ -344,8 +272,8 @@
 				DF97CDDE1365EE39005D2536 /* glk.h */,
 				DF97CDDD1365EE39005D2536 /* gi_dispa.h */,
 				DFE9EA33136607AC00DD5F53 /* gi_dispa.c */,
-				DFAEC3771369047D0014AB94 /* gi_blorb.c */,
 				DFAEC3781369047D0014AB94 /* gi_blorb.h */,
+				DFAEC3771369047D0014AB94 /* gi_blorb.c */,
 				DF2280A413692516000AF225 /* iosglk_startup.h */,
 			);
 			path = GenSrc;
@@ -467,7 +395,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0920;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IosGlk" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -502,38 +430,14 @@
 				DF9D1A6614E71D6E006A6749 /* PaletteMenuView.xib in Resources */,
 				DFBB4DF214F5E1210041016A /* PopBoxView.xib in Resources */,
 				DF29B80C1559EA22009DA4BE /* MoreBoxView.xib in Resources */,
-				DF70A15B1513EDA600B109A2 /* selecthandle.png in Resources */,
-				DF70A15C1513EDA600B109A2 /* selecthandle@2x.png in Resources */,
-				DFC755E8152953A1009F4137 /* background-popbox.png in Resources */,
-				DFC755E9152953A1009F4137 /* background-popbox@2x.png in Resources */,
-				DFC755EA152953A1009F4137 /* fader-popbox.png in Resources */,
-				DF41DA6F152E09F4000B5D00 /* button-tab-sel.png in Resources */,
-				DF41DA70152E09F4000B5D00 /* button-tab-sel@2x.png in Resources */,
 				DFCB1618153FAE2900936D28 /* InputMenuDecor.xib in Resources */,
 				DFCB15E1153E21E600936D28 /* Localizable.strings in Resources */,
-				DFCB160B153FAD5E00936D28 /* button-input-back.png in Resources */,
-				DFCB160C153FAD5E00936D28 /* button-input-back@2x.png in Resources */,
-				DFCB160D153FAD5E00936D28 /* button-input-clear.png in Resources */,
-				DFCB160E153FAD5E00936D28 /* button-input-clear@2x.png in Resources */,
-				DFCB160F153FAD5E00936D28 /* button-input-menu.png in Resources */,
-				DFCB1610153FAD5E00936D28 /* button-input-menu@2x.png in Resources */,
+				55BC63462055E908001F8CFB /* Media.xcassets in Resources */,
 				DFCB1614153FAD9400936D28 /* TextFieldRightView.xib in Resources */,
-				DF188B67154711AF00CC6929 /* button-input-menu-sel.png in Resources */,
-				DF188B68154711AF00CC6929 /* button-input-menu-sel@2x.png in Resources */,
 				DF188B6B154711C200CC6929 /* HistoryMenuView~ipad.xib in Resources */,
 				DF188B6C154711C200CC6929 /* PaletteMenuView~ipad.xib in Resources */,
 				DF188B6F154711CE00CC6929 /* InputMenuDecor~ipad.xib in Resources */,
 				DF188B7C154757AB00CC6929 /* GameOverView.xib in Resources */,
-				DF188B8615478EA000CC6929 /* button-pref-base.png in Resources */,
-				DF188B8715478EA000CC6929 /* button-pref-base@2x.png in Resources */,
-				DF188B8815478EA000CC6929 /* button-pref-hi.png in Resources */,
-				DF188B8915478EA000CC6929 /* button-pref-hi@2x.png in Resources */,
-				DF29B8101559EA34009DA4BE /* more-arrow.png in Resources */,
-				DF29B8111559EA34009DA4BE /* more-arrow@2x.png in Resources */,
-				DF564963158988F4002A52E2 /* button-done-hi.png in Resources */,
-				DF564964158988F4002A52E2 /* button-done-hi@2x.png in Resources */,
-				DF564965158988F4002A52E2 /* button-done.png in Resources */,
-				DF564966158988F4002A52E2 /* button-done@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,12 +536,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = IosGlk_Prefix.pch;
-				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "IosGlk-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.eblong.iosglktest;
@@ -652,7 +556,6 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = IosGlk_Prefix.pch;
-				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "IosGlk-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.eblong.iosglktest;
@@ -665,12 +568,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -679,7 +588,6 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -698,12 +606,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -711,7 +625,6 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

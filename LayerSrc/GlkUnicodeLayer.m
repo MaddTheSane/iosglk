@@ -98,35 +98,25 @@ unsigned char glk_char_to_upper(unsigned char ch)
 glui32 glk_buffer_to_lower_case_uni(glui32 *buf, glui32 len,
     glui32 numchars)
 {
-	NSMutableString *str = [[[NSMutableString alloc] initWithBytes:buf length:numchars*sizeof(glui32) encoding:NSUTF32LittleEndianStringEncoding] autorelease];
+	NSMutableString *str = [[NSMutableString alloc] initWithBytes:buf length:numchars*sizeof(glui32) encoding:NSUTF32LittleEndianStringEncoding];
 	CFStringLowercase((CFMutableStringRef)str, CFLocaleGetSystem());
+	NSData *strData = [str dataUsingEncoding:NSUTF32LittleEndianStringEncoding];
 	
-	int ix;
-	for (ix=0; ix<str.length; ix++) {
-		if (ix >= len)
-			break;
-		glui32 ch = [str characterAtIndex:ix];
-		buf[ix] = ch;
-	}
+	[strData getBytes:buf length:MIN(len * sizeof(glui32), strData.length)];
 	
-	return str.length;
+	return (glui32)(strData.length/sizeof(glui32));
 }
 
 glui32 glk_buffer_to_upper_case_uni(glui32 *buf, glui32 len,
     glui32 numchars)
 {
-	NSMutableString *str = [[[NSMutableString alloc] initWithBytes:buf length:numchars*sizeof(glui32) encoding:NSUTF32LittleEndianStringEncoding] autorelease];
+	NSMutableString *str = [[NSMutableString alloc] initWithBytes:buf length:numchars*sizeof(glui32) encoding:NSUTF32LittleEndianStringEncoding];
 	CFStringUppercase((CFMutableStringRef)str, CFLocaleGetSystem());
+	NSData *strData = [str dataUsingEncoding:NSUTF32LittleEndianStringEncoding];
 	
-	int ix;
-	for (ix=0; ix<str.length; ix++) {
-		if (ix >= len)
-			break;
-		glui32 ch = [str characterAtIndex:ix];
-		buf[ix] = ch;
-	}
+	[strData getBytes:buf length:MIN(len * sizeof(glui32), strData.length)];
 	
-	return str.length;
+	return (glui32)(strData.length/sizeof(glui32));
 }
 
 glui32 glk_buffer_to_title_case_uni(glui32 *buf, glui32 len,
@@ -137,8 +127,8 @@ glui32 glk_buffer_to_title_case_uni(glui32 *buf, glui32 len,
 	if (numchars == 0)
 		return 0;
 		
-	NSMutableString *str = [[[NSMutableString alloc] initWithBytes:buf length:1*sizeof(glui32) encoding:NSUTF32LittleEndianStringEncoding] autorelease];
-	NSMutableString *strtail = [[[NSMutableString alloc] initWithBytes:buf+1 length:(numchars-1)*sizeof(glui32) encoding:NSUTF32LittleEndianStringEncoding] autorelease];
+	NSMutableString *str = [[NSMutableString alloc] initWithBytes:buf length:1*sizeof(glui32) encoding:NSUTF32LittleEndianStringEncoding];
+	NSMutableString *strtail = [[NSMutableString alloc] initWithBytes:buf+1 length:(numchars-1)*sizeof(glui32) encoding:NSUTF32LittleEndianStringEncoding];
 		
 	CFStringCapitalize((CFMutableStringRef)str, CFLocaleGetSystem());
 	if (lowerrest)
@@ -158,36 +148,25 @@ glui32 glk_buffer_to_title_case_uni(glui32 *buf, glui32 len,
 }
 
 glui32 glk_buffer_canon_decompose_uni(glui32 *buf, glui32 len,
-    glui32 numchars)
+	glui32 numchars)
 {
-	NSMutableString *str = [[[NSMutableString alloc] initWithBytes:buf length:numchars*sizeof(glui32) encoding:NSUTF32LittleEndianStringEncoding] autorelease];
+	NSMutableString *str = [[NSMutableString alloc] initWithBytes:buf length:numchars*sizeof(glui32) encoding:NSUTF32LittleEndianStringEncoding];
 	CFStringNormalize((CFMutableStringRef)str, kCFStringNormalizationFormD);
+	NSData *strData = [str dataUsingEncoding:NSUTF32LittleEndianStringEncoding];
 	
-	int ix;
-	for (ix=0; ix<str.length; ix++) {
-		if (ix >= len)
-			break;
-		glui32 ch = [str characterAtIndex:ix];
-		buf[ix] = ch;
-	}
+	[strData getBytes:buf length:MIN(len * sizeof(glui32), strData.length)];
 	
-	return str.length;
+	return (glui32)(strData.length/sizeof(glui32));
 }
 
 glui32 glk_buffer_canon_normalize_uni(glui32 *buf, glui32 len,
-    glui32 numchars)
+	glui32 numchars)
 {
-	NSMutableString *str = [[[NSMutableString alloc] initWithBytes:buf length:numchars*sizeof(glui32) encoding:NSUTF32LittleEndianStringEncoding] autorelease];
+	NSMutableString *str = [[NSMutableString alloc] initWithBytes:buf length:numchars*sizeof(glui32) encoding:NSUTF32LittleEndianStringEncoding];
 	CFStringNormalize((CFMutableStringRef)str, kCFStringNormalizationFormC);
+	NSData *strData = [str dataUsingEncoding:NSUTF32LittleEndianStringEncoding];
 	
-	int ix;
-	for (ix=0; ix<str.length; ix++) {
-		if (ix >= len)
-			break;
-		glui32 ch = [str characterAtIndex:ix];
-		buf[ix] = ch;
-	}
+	[strData getBytes:buf length:MIN(len * sizeof(glui32), strData.length)];
 	
-	return str.length;
+	return (glui32)(strData.length/sizeof(glui32));
 }
-

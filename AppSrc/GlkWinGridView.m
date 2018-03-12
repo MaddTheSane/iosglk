@@ -93,7 +93,7 @@
 				lastcolor = color;
 			}
 			pt.x = marginoffset.x + str.pos * charbox.width;
-			[str.str drawAtPoint:pt withFont:fonts[str.style]];
+			[str.str drawAtPoint:pt withAttributes:[NSDictionary dictionaryWithObjectsAndKeys:fonts[str.style], NSFontAttributeName, nil]];
 		}
 		jx++;
 	}
@@ -470,7 +470,7 @@
 				label.opaque = NO;
 				[self addSubview:label];
 				CGPoint newpt = RectCenter(winv.inputholder.frame);
-				CGSize curinputsize = [winv.inputfield.text sizeWithFont:winv.inputfield.font];
+				CGSize curinputsize = [winv.inputfield.text sizeWithAttributes:[NSDictionary dictionaryWithObjectsAndKeys:winv.inputfield.font, NSFontAttributeName, nil]];
 				newpt.x = winv.inputholder.frame.origin.x + curinputsize.width + 0.5*rect.size.width;
 				[UIView beginAnimations:@"labelFling" context:label];
 				[UIView setAnimationDelegate:self];
