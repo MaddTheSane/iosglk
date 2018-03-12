@@ -12,7 +12,7 @@
 @class GlkVisualLine;
 
 @interface GlkAccVisualLine : UIAccessibilityElement {
-	GlkVisualLine *line; /* weak parent link -- unretained */
+	__unsafe_unretained GlkVisualLine *line; /* weak parent link -- unretained */
 }
 
 @property (nonatomic, assign) GlkVisualLine *line;
@@ -25,7 +25,7 @@
 
 
 @interface GlkAccStyledLine : UIAccessibilityElement {
-	GlkStyledLine *line; /* weak parent link -- unretained */
+	__unsafe_unretained GlkStyledLine *line; /* weak parent link -- unretained */
 }
 
 @property (nonatomic, assign) GlkStyledLine *line;
