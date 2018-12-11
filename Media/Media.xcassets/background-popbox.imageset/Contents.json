@@ -1,11 +1,39 @@
 {
   "images" : [
     {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "tile",
+          "width" : 1,
+          "height" : 1
+        },
+        "cap-insets" : {
+          "bottom" : 12,
+          "top" : 12,
+          "right" : 12,
+          "left" : 12
+        }
+      },
       "idiom" : "universal",
       "filename" : "background-popbox.png",
       "scale" : "1x"
     },
     {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "tile",
+          "width" : 1,
+          "height" : 1
+        },
+        "cap-insets" : {
+          "bottom" : 28,
+          "top" : 28,
+          "right" : 23,
+          "left" : 23
+        }
+      },
       "idiom" : "universal",
       "filename" : "background-popbox@2x.png",
       "scale" : "2x"

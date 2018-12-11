@@ -1,11 +1,33 @@
 {
   "images" : [
     {
+      "resizing" : {
+        "mode" : "3-part-horizontal",
+        "center" : {
+          "mode" : "stretch",
+          "width" : 1
+        },
+        "cap-insets" : {
+          "right" : 6,
+          "left" : 6
+        }
+      },
       "idiom" : "universal",
       "filename" : "button-input-back.png",
       "scale" : "1x"
     },
     {
+      "resizing" : {
+        "mode" : "3-part-horizontal",
+        "center" : {
+          "mode" : "stretch",
+          "width" : 1
+        },
+        "cap-insets" : {
+          "right" : 13,
+          "left" : 13
+        }
+      },
       "idiom" : "universal",
       "filename" : "button-input-back@2x.png",
       "scale" : "2x"

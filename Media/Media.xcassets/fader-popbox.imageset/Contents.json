@@ -1,6 +1,17 @@
 {
   "images" : [
     {
+      "resizing" : {
+        "mode" : "3-part-horizontal",
+        "center" : {
+          "mode" : "tile",
+          "width" : 1
+        },
+        "cap-insets" : {
+          "right" : 11,
+          "left" : 11
+        }
+      },
       "idiom" : "universal",
       "filename" : "fader-popbox.png",
       "scale" : "1x"
