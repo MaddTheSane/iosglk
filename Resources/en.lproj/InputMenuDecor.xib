@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -21,9 +21,8 @@
             <rect key="frame" x="0.0" y="0.0" width="260" height="25"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="11">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11">
                     <rect key="frame" x="0.0" y="0.0" width="130" height="25"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
                     <state key="normal" title="Common Commands">
                         <color key="titleColor" red="0.87927263980000003" green="0.87944149969999996" blue="0.87924438709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -39,9 +38,8 @@
                         <action selector="handlePaletteButton:" destination="-1" eventType="touchUpInside" id="15"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="10">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10">
                     <rect key="frame" x="130" y="0.0" width="130" height="25"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
                     <state key="normal" title="Recent Commands">
                         <color key="titleColor" red="0.87927263980000003" green="0.87944149969999996" blue="0.87924438709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -59,11 +57,21 @@
                 </button>
             </subviews>
             <color key="backgroundColor" red="0.55166316029999996" green="0.49549490210000002" blue="0.3726429939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="10" secondAttribute="trailing" id="1Ie-au-CJj"/>
+                <constraint firstItem="11" firstAttribute="top" secondItem="1" secondAttribute="top" id="3kf-He-S8a"/>
+                <constraint firstItem="10" firstAttribute="leading" secondItem="11" secondAttribute="trailing" id="4EC-AG-bNU"/>
+                <constraint firstItem="11" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="4g0-Lf-Wgo"/>
+                <constraint firstItem="10" firstAttribute="top" secondItem="1" secondAttribute="top" id="8GK-YT-LRN"/>
+                <constraint firstAttribute="bottom" secondItem="11" secondAttribute="bottom" id="LCn-by-CEb"/>
+                <constraint firstAttribute="bottom" secondItem="10" secondAttribute="bottom" id="ikS-Eo-Nf6"/>
+                <constraint firstItem="10" firstAttribute="width" secondItem="11" secondAttribute="width" id="r4t-Ei-6tZ"/>
+            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>
     <resources>
-        <image name="button-tab-sel" width="50" height="25"/>
+        <image name="button-tab-sel" width="40" height="20"/>
     </resources>
 </document>
