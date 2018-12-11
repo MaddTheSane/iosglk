@@ -94,7 +94,7 @@
 		DF19DDC814E87CC4007DCB29 /* IosGlkLibDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IosGlkLibDelegate.m; sourceTree = "<group>"; };
 		DF2280A413692516000AF225 /* iosglk_startup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iosglk_startup.h; sourceTree = "<group>"; };
 		DF29B80D1559EA22009DA4BE /* MoreBoxView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreBoxView.xib; sourceTree = "<group>"; };
-		DF34BE031A424EFD008D18B6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		DF34BE031A424EFD008D18B6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		DF5A890B136E7995009C6DBC /* GlkDateTimeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlkDateTimeLayer.m; sourceTree = "<group>"; };
 		DF70A15D1513F4F800B109A2 /* TextSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextSelectView.h; sourceTree = "<group>"; };
 		DF70A15E1513F4F800B109A2 /* TextSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextSelectView.m; sourceTree = "<group>"; };
