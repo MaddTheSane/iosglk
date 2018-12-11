@@ -1431,7 +1431,8 @@
 			pt.y = ymin + floorf(maxascend - font.ascender);
 			// for descenders: pt.y = (ymin + vln.height - font.lineHeight) - floorf(font.descender - mindescend)
 			
-			CGSize wordsize = [vwd.str drawAtPoint:pt withFont:font];
+			CGSize wordsize = [vwd.str sizeWithAttributes:@{NSFontAttributeName: font}];
+			[vwd.str drawAtPoint:pt withAttributes:@{NSFontAttributeName: font}];
 			pt.x += wordsize.width;
 		}
 	}

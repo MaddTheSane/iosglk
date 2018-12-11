@@ -179,8 +179,14 @@
 		[self performSelector:@selector(textFieldContinueReturn:) withObject:self.textfield afterDelay:0.0];
 }
 
-- (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)orientation {
-	return [[IosGlkViewController singleton] shouldAutorotateToInterfaceOrientation:orientation];
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
+{
+	return [[IosGlkViewController singleton] supportedInterfaceOrientations];
+}
+
+- (BOOL)shouldAutorotate
+{
+	return [[IosGlkViewController singleton] shouldAutorotate];
 }
 
 - (void) setEditing:(BOOL)editing animated:(BOOL)animated {

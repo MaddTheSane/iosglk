@@ -102,6 +102,16 @@
 	}
 }
 
+#if 0
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
+{
+	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
+		BOOL hidenavbar = (orientation == UIInterfaceOrientationLandscapeLeft || orientation == UIInterfaceOrientationLandscapeRight);
+		[self.navigationController setNavigationBarHidden:hidenavbar animated:YES];
+	}
+}
+#endif
+
 /* Allow all orientations. (An interpreter-specific subclass may override this.) iOS6+ idiom.
  */
 - (UIInterfaceOrientationMask) supportedInterfaceOrientations {
